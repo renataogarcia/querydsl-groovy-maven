@@ -3,4 +3,7 @@ querydsl-groovy-maven
 
 Sample using Querydsl APT Groovy and Maven
 
-Use the default annotation processors discovery process by adding the file inside [this zip](https://github.com/renataogarcia/querydsl-groovy-maven/zipball/master) file to the Querydsl processor jar in the META-INF/services directory.
+Instructions:
+
+In order for this to work you'll need to patch the querydsl-apt-2.6.0.jar file and include [this](https://github.com/downloads/renataogarcia/querydsl-groovy-maven/javax.annotation.processing.Processor) to the META-INF/services directory.
+
