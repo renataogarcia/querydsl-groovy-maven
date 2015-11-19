@@ -1,10 +1,13 @@
-package sample;
+package sample
 
-import javax.persistence.Entity;
+import javax.persistence.Entity
+import javax.persistence.Id
 
 @Entity
 class Foo {
-	
-	String bar
 
+	@Id
+	Long id
+
+	String bar
 }
